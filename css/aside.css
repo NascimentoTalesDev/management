@@ -1,0 +1,39 @@
+#aside{
+    height: 100%;
+    width: 300px;
+    padding-right: 10px;
+}
+
+#logo{
+   padding: 10px;
+   margin-bottom: 20px;
+}
+
+#nav{
+    height: 100%;
+}
+
+#nav ul {
+
+}
+
+#nav ul a {
+    width: 100%;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+#nav ul a li {
+    padding: 10px;
+    border-radius: 16px;
+}   
+
+#nav ul a li:hover{
+    background-color: rgb(175, 175, 175);
+
+}
+
+#nav ul a.active {
+    color: white;
+    background-color: #007bff;
+}
