@@ -1,21 +1,28 @@
-#aside{
+#aside {
     height: 100%;
-    width: 300px;
+    width: 100%;
+    max-width: 220px;
     padding-right: 10px;
 }
 
-#logo{
-   padding: 10px;
-   margin-bottom: 20px;
+#logo {
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
 }
 
-#nav{
+#logo img {
+    width: 100%;
+    height: auto;
+    /* Garante que a proporção da imagem seja mantida */
+}
+
+
+#nav {
     height: 100%;
 }
 
-#nav ul {
-
-}
+#nav ul {}
 
 #nav ul a {
     width: 100%;
@@ -26,14 +33,13 @@
 #nav ul a li {
     padding: 10px;
     border-radius: 16px;
-}   
+}
 
-#nav ul a li:hover{
-    background-color: rgb(175, 175, 175);
-
+#nav ul a li:hover {
+    background-color: rgb(66, 66, 66);
+    color: white;
 }
 
 #nav ul a.active {
     color: white;
-    background-color: #007bff;
 }

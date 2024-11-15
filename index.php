@@ -1,5 +1,6 @@
 <?php
 $page = $_GET['page'] ?? 'home'; 
+$id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT); // Sanitiza e valida 'id'
 
 switch ($page) {
     case 'create':
@@ -7,6 +8,12 @@ switch ($page) {
         break;
     case 'settings':
         $children = 'settings.php';
+        break;
+    case 'show':
+        $children = 'show.php'; 
+        break;
+    case 'edit':
+        $children = 'edit.php';
         break;
     case 'home':
     default:
